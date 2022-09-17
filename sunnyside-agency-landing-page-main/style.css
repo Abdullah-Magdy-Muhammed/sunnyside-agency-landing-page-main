@@ -95,3 +95,51 @@ strong {
     display: flex;
     justify-content:center;
 }
+.three{
+    display: flex;
+    justify-content:center;
+    height:100vh;
+    position: relative;
+}
+.cheery{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.orange {
+
+    background-image: url(images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.orange h2{
+    color:#fff;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    width: 100px;
+    margin: 50px 170px;
+    position: absolute;
+    bottom:100px;
+    right:150px;
+}
+.orange p{
+    color:#fff;
+    text-align: center;
+}
+.cheery h2{
+    color:#fff;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    width: 100px;
+    margin: 50px 170px;
+    position: absolute;
+    bottom:50px;
+    left:80px;
+}
+.cheery p{
+    color: #fff;
+    text-align: center;
+}
