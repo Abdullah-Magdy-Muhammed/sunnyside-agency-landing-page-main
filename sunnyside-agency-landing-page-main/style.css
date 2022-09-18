@@ -128,6 +128,9 @@ strong {
 .orange p{
     color:#fff;
     text-align: center;
+    position: absolute;
+    bottom:40px;
+    
 }
 .cheery h2{
     color:#fff;
@@ -142,4 +145,57 @@ strong {
 .cheery p{
     color: #fff;
     text-align: center;
+}
+
+.section-four h2{
+    color:#ddd;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    margin: 50px 0;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(3,33%);
+    grid-template-rows: repeat(2,200px);
+}
+.grid-container img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.grid-container p{
+    color:  hsl(213, 9%, 39%);
+    text-align: center;
+    margin: 70px 20px;
+}
+.flex-container{
+    display: flex;
+    width: 50vw;
+}
+.flex-container img{
+    max-width: 33vw;
+}
+footer{
+    position: relative;
+}
+footer .container{
+    position: absolute;
+    left:35vw;
+    top: 20px;
+}
+footer a{
+    text-decoration: none;
+    padding: 20px;
+    color:grey;
+}
+.attribution{
+    position: absolute;
+    top: 70px;
+    left:37vw;
 }
